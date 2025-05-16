@@ -1,3 +1,3 @@
 import comp from "C:/Users/admin/Desktop/DOCS/src/.vuepress/.temp/pages/demo/encrypt.html.vue"
-const data = JSON.parse("{\"path\":\"/demo/encrypt.html\",\"title\":\"密码加密的文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"lock\",\"category\":[\"使用指南\"],\"tag\":[\"加密\"],\"feed\":false,\"seo\":false,\"head\":[]},\"git\":{},\"readingTime\":{\"minutes\":0.51,\"words\":154},\"filePathRelative\":\"demo/encrypt.md\"}")
+const data = JSON.parse("{\"path\":\"/demo/encrypt.html\",\"title\":\"密码加密的文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"lock\",\"category\":[\"使用指南\"],\"tag\":[\"加密\"],\"feed\":false,\"seo\":false,\"head\":[]},\"git\":{\"createdTime\":1747362134000,\"updatedTime\":1747362134000,\"contributors\":[{\"name\":\"姚在流\",\"username\":\"\",\"email\":\"18122313857@163.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.51,\"words\":154},\"filePathRelative\":\"demo/encrypt.md\"}")
 export { comp, data }
