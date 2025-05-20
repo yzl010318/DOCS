@@ -1,2 +1,13 @@
-export const typesMap = JSON.parse("{\"article\":{\"/\":{\"path\":\"/article/\",\"indexes\":[13,0,19,1,2,5,3,4,8,7,6,16,17,9,10,11,12,14,18,15]}},\"star\":{\"/\":{\"path\":\"/star/\",\"indexes\":[9,13,14,0]}},\"timeline\":{\"/\":{\"path\":\"/timeline/\",\"indexes\":[19,1,2,5,3,4,13,8,7,6,16,17,9,10,11,12,14,18,15,0]}}}");
+export const typesMap = JSON.parse("{\"article\":{\"/\":{\"path\":\"/article/\",\"indexes\":[0,6,1,2,5,3,4,7]}},\"star\":{\"/\":{\"path\":\"/star/\",\"indexes\":[0]}},\"timeline\":{\"/\":{\"path\":\"/timeline/\",\"indexes\":[0]}}}");
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept();
+  if (__VUE_HMR_RUNTIME__.updateBlogType)
+    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
+}
+
+if (import.meta.hot)
+  import.meta.hot.accept(({ typesMap }) => {
+    __VUE_HMR_RUNTIME__.updateBlogType(typesMap);
+  });
 
